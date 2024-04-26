@@ -1,0 +1,6 @@
+# GET https://localhost:9165/management/listeners HTTP/1.1
+# GET https://localhost:9165/management/listeners/?name=listener_1 HTTP/1.1
+
+
+# GET https://localhost:9165/management/services HTTP/1.1
+# GET https://localhost:9165/management/services/?name=service_1 HTTP/1.1
