@@ -3,13 +3,6 @@ org = "hinduja"
 name = "test_MI"
 version = "0.1.0"
 
-
 [build-options]
 observabilityIncluded = true
 remoteManagement=true
-
-[[dependency]]
-org = "ballerinax"
-name = "wso2.controlplane"
-version = "1.0.0"
-repository = "local"
