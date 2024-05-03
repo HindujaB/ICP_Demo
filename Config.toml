@@ -1,9 +1,11 @@
 [ballerinax.wso2.controlplane]
 keyStorePath = "<path-to-keystore>"
+trustStorePath = "<path-to-truststore>"
 
 [ballerinax.wso2.controlplane.dashboard]
 url = "https://localhost:9743/dashboard/api"
 heartbeatInterval = 10
-groupId = "ballerina_group"
-nodeId = "ballerina_dev_node"
+groupId = "group1"
 mgtApiUrl ="https://localhost:9164/management/"
+serviceAccount = "admin"
+serviceAccountPassword = "admin"
