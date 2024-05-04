@@ -9,5 +9,5 @@ heartbeatInterval = 10
 groupId = "group1"
 mgtApiUrl ="https://localhost:9264/management/"
 # nodeId = "node_1"
-
-
+# serviceAccount = "bal_admin"
+# serviceAccountPassword = "bal_secret"
